@@ -3,5 +3,41 @@ body {
 }
 
 header {
-   height: 4rem;
+   height: 3rem;
+   width: 100%;
+   outline: 1px black solid;
+}
+
+#left-bar {
+   height: 2rem;
+   width: 6rem;
+   margin-top: 1rem;
+   margin-left: 1rem;
+   float: left;
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+}
+
+#left-bar a {
+   text-decoration: none;
+}
+
+#navbar {
+   height: 2rem;
+   width: 14rem;
+   margin-top: 1rem;
+   margin-right: 1rem;
+   float: right;
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+}
+
+#navbar a {
+   text-decoration: none;
+}
+
+.nav-link {
+   font-size: 12px;
 }
